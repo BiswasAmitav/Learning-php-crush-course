@@ -36,12 +36,9 @@
 
 
     $person =[
-        ['first_name' => 'dipto',
+        'first_name' => 'dipto',
         'last_name' => 'Choudhury',
-        'age' => 23],
-        [
-            
-        ]  
+        'age' => 23   
     ];
 
     echo $person['age'];
