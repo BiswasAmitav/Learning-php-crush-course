@@ -1,6 +1,16 @@
 <?php
-    function registerUser(){
-        echo 'User registered..!';
+    function registerUser($email){
+        echo $email.' is already  registered..!';
     }
-    registerUser();
+    registerUser('biswasamit2648@gmail.com');
+
+    $fruitsName=['first','second','third'];
+    $fruits = ['appple', 'orange', 'pear'];
+
+    $fullName=array_combine($fruitsName,$fruits);
+    print_r($fullName);
+
+    echo $fullName['first'];
+
+    //var_dump(in_array('apple',$fruits));
 ?>
